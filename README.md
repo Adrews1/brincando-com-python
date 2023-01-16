@@ -1,2 +1,2 @@
 # brincando com python
- primeiro repositorio versionado
+ Primeiro repositório do curso de Git e GitHub
