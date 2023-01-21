@@ -33,7 +33,7 @@ def partida():
             if n == 0:
                 print('Você venceu!')
                 break
-    elif n % (m+1) == 0:
+    elif n % (m + 1) == 0:
         print('Você começa')
         while n > 0:
             jogador = usuario_escolhe_jogada(n, m)
