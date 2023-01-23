@@ -21,7 +21,7 @@ def partida():
     m = int(input('Limite de peças por jogada?: '))
     if n % (m + 1) >= 1:
         print('Computador começa!')
-        while n > 0:
+        while True:
             pc = computador_escolhe_jogada(n, m)
             print(f'O computador tirou {pc}')
             n -= pc
@@ -35,7 +35,7 @@ def partida():
                 break
     elif n % (m + 1) == 0:
         print('Você começa')
-        while n > 0:
+        while True:
             jogador = usuario_escolhe_jogada(n, m)
             n -= jogador
             if n == 0:
